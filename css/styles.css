@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(199, 198, 198);
+}
+.container{
+    background-color: rgb(64, 224, 131);
+    margin: 120px auto;
+    width: 80%;
+    height: 650px;
+    position: relative;
+    border-radius: 15px;
+}
+
+figure{
+    background-color: white;
+    padding: 10px 25px;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+figcaption{
+    text-align: center;
+}
+
+#li1{
+    z-index: 4;
+    position: absolute;
+    margin: 12% 20% ;
+    transform: rotate(-45deg);
+}
+#li2{
+    z-index: 3;
+    position: absolute;
+    margin: 14% 28% ;
+    transform: rotate(45deg);
+}
+#li3{
+    z-index: 2;
+    position: absolute;
+    margin: 14% 37% ;
+    transform: rotate(-20deg);
+}
+#li4{
+    z-index: 1;
+    position: absolute;
+    margin: 17% 44% ;
+    transform: rotate(20deg);
+}
+
+
+img{
+    width: 16em;
+}
+
+.fixed-sidebar img{
+    width: 90%;
+    margin: 5%;
+}
+.fixed-sidebar{
+    position: fixed;
+    top: 35%;
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 75px;
+    height: 250px;
+    font-size: 13px;
+}
+.fixed-sidebar ul{
+    padding-left: 0px;
+    margin: 18px 10px;
+    list-style: none;
+    text-align: center;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    z-index: 8;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.nav-item{
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+    margin-left: 1em;
+    margin-top: 1.3em;
+}
