@@ -1,0 +1,1 @@
+This proyect is based on a Open Webinar course (https://openwebinars.net/academia/) but is made by myself. The purpose of this repository is to request improvements to the code in terms of parameter optimization (same functionality but better optimized), in addition to showing the use of the position and z-index property mainly.
